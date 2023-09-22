@@ -1,0 +1,51 @@
+table th {
+    width:10em;
+}
+table {
+    border-collapse: collapse;
+}
+
+h1{
+    text-align: center;
+}
+td {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+tr:nth-of-type(1) > th {
+    background-color: grey;
+}
+td[colspan]{
+    text-align: center;
+    background-color: beige;
+    font-weight: bold;
+}
+.Fundamentos{
+    background-color: yellow;
+}
+.diseño{
+    background-color: gainsboro;
+}
+.web{
+    background-color: #ff8000;
+}
+.marketing{
+    background-color: skyblue;
+}
+.inst{
+    background-color: #90EE90;
+}
+.org{
+    background-color: yellow;
+}
+tr:nth-of-type(2) > th,
+tr:nth-of-type(3) > th,
+tr:nth-of-type(4) > th,
+tr:nth-of-type(5) > th,
+tr:nth-of-type(6) > th,
+tr:nth-of-type(7) > th,
+tr:nth-of-type(8) > th{
+    background-color: gray;
+}
